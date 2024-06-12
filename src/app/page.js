@@ -4,10 +4,11 @@ import BackgroundImage from "../components/background image/BackgroundImage";
 import IconBackground from "@/components/icons background/IconBackground";
 import CircleDotLoader from "@/components/circle dot loader/CircleDotLoader";
 import TubeLightText from "@/components/tubelight text/TubeLightText";
-
+import NeonButton from "@/components/neon buttons/NeonButton";
 export default function Home() {
   return (
     <div>
+      <NeonButton />
       <TubeLightText />
       <CircleDotLoader />
       <IconBackground />
