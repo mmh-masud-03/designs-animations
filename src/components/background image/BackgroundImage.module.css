@@ -1,0 +1,29 @@
+.wrapper{
+    background-image: url('https://images.unsplash.com/photo-1622830000000-3f3b3f3f3f3f');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+    transition: all 0.3s;
+}

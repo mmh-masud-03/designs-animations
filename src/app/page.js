@@ -1,6 +1,12 @@
-import Image from "next/image";
 import styles from "./page.module.css";
+import WavyCircle from "@/components/wavy circle loader/WavyCircle";
+import BackgroundImage from "@/components/background image/BackgroundImage";
 
 export default function Home() {
-  return <div className="main-body">hello</div>;
+  return (
+    <div>
+      <backgroundImage />
+      <WavyCircle />
+    </div>
+  );
 }
