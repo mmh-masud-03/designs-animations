@@ -27,7 +27,7 @@ background: #050801;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 .wrapper a:nth-child(1){
-    filter: hue-rotate(280deg);
+    filter: hue-rotate(290deg);
 }
 
 .wrapper a:nth-child(3){
