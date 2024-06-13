@@ -7,9 +7,11 @@ import TubeLightText from "@/components/tubelight text/TubeLightText";
 import NeonButton from "@/components/neon buttons/NeonButton";
 import EndlessRoad from "@/components/endless road/EndlessRoad";
 import GradientShadow from "@/components/gradient shadow/GradientShadow";
+import BackgroundPulse from "@/components/background pulse/BackgroundPulse";
 export default function Home() {
   return (
     <div>
+      <BackgroundPulse />
       <GradientShadow />
       <EndlessRoad />
       <NeonButton />
