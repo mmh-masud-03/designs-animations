@@ -6,9 +6,11 @@ import CircleDotLoader from "@/components/circle dot loader/CircleDotLoader";
 import TubeLightText from "@/components/tubelight text/TubeLightText";
 import NeonButton from "@/components/neon buttons/NeonButton";
 import EndlessRoad from "@/components/endless road/EndlessRoad";
+import GradientShadow from "@/components/gradient shadow/GradientShadow";
 export default function Home() {
   return (
     <div>
+      <GradientShadow />
       <EndlessRoad />
       <NeonButton />
       <TubeLightText />
