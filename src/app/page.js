@@ -8,9 +8,11 @@ import NeonButton from "@/components/neon buttons/NeonButton";
 import EndlessRoad from "@/components/endless road/EndlessRoad";
 import GradientShadow from "@/components/gradient shadow/GradientShadow";
 import BackgroundPulse from "@/components/background pulse/BackgroundPulse";
+import LeavesAnimation from "@/components/leaves animation/LeavesAnimation";
 export default function Home() {
   return (
     <div>
+      <LeavesAnimation />
       <BackgroundPulse />
       <GradientShadow />
       <EndlessRoad />
